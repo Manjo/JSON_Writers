@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Item Ability JSON writer</title>
+<script src ="js/lib/jquery-2.0.3.min.js"> </script>
+<script src ="js/ItemAbilityJsonWriter.js"> </script>
+</head>
+
+<body style="text-align:center">
+
+
+Item Effect Name<br><input style="width:60%"id="name" type="text" /><br>
+Type<br><select style="width:60%" id="type">
+	<option>Active</option>
+	<option>Passive</option>
+	<option>Consumable</option>
+</select><br>
+Stats effected by Item Ability<br>
+<div id ="stats" style="width:60%; display: inline-block">
+
+</div><br>
+Effect Description:<br><input style="width:60%" id="desc" type="text" /> <br>
+<input id="button" type="button" style="width:60%"  onclick="generate()" value="Generate" /><br>
+Output<br>
+	<textarea style="width:60%" rows="10" id="output"> </textarea>
+	<br>
+	<input id="clearButton" type="button" style="width:60%"  onclick="textclear()" value="Clear" /><br>
+
+</body>
+
+</html>

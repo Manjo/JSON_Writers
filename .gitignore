@@ -1,0 +1,4 @@
+# Ignore libraries
+/js/lib
+# Ignore sample
+/js/sample ability json.json
